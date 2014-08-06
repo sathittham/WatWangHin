@@ -3,6 +3,9 @@
     package="com.sathittham.watwanghin" >
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -31,56 +34,56 @@
         <!-- Calendar activity -->
         <activity
             android:name="CalendarActivity"
-            android:parentActivityName="com.scuta.watwanghin.MainActivity"
+            android:parentActivityName="com.sathittham.watwanghin.MainActivity"
             android:screenOrientation="portrait" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="sathittham.sangthong.slims_master.MainActivity" />
+                android:value="com.sathittham.watwanghin.MainActivity" />
         </activity>
 
         <!-- EBook activity -->
         <activity
             android:name="EbookActivity"
-            android:parentActivityName="com.scuta.watwanghin.MainActivity"
+            android:parentActivityName="com.sathittham.watwanghin.MainActivity"
             android:screenOrientation="portrait" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="sathittham.sangthong.slims_master.MainActivity" />
+                android:value="com.sathittham.watwanghin.MainActivity" />
         </activity>
 
         <!-- News activity -->
         <activity
             android:name="NewsActivity"
-            android:parentActivityName="com.scuta.watwanghin.MainActivity"
+            android:parentActivityName="com.sathittham.watwanghin.MainActivity"
             android:screenOrientation="portrait" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="sathittham.sangthong.slims_master.MainActivity" />
+                android:value="com.sathittham.watwanghin.MainActivity" />
         </activity>
 
         <!-- Sound activity -->
         <activity
             android:name="SoundActivity"
-            android:parentActivityName="com.scuta.watwanghin.MainActivity"
+            android:parentActivityName="com.sathittham.watwanghin.MainActivity"
             android:screenOrientation="portrait" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="sathittham.sangthong.slims_master.MainActivity" />
+                android:value="com.sathittham.watwanghin.MainActivity" />
         </activity>
 
         <!-- VDO activity -->
         <activity
             android:name="VDOActivity"
-            android:parentActivityName="com.scuta.watwanghin.MainActivity"
-            android:screenOrientation="portrait" >
+            android:parentActivityName="com.sathittham.watwanghin.MainActivity"
+            android:screenOrientation="portrait">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="sathittham.sangthong.slims_master.MainActivity" />
+                android:value="com.sathittham.watwanghin.MainActivity" />
         </activity>
     </application>
 
